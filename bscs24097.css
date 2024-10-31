@@ -1,19 +1,36 @@
-.first-div
-{
+.first-div {
     width: 400px;
     height: 70px;
     background-color: lightblue;
     border-width: 3px;
-    border-style:solid;
+    border-style: solid;
     border-color: pink;
     border-radius: 20%;
     margin: 10px;
     padding: 5px;
+    transition: background-color 0.3s; 
+}
 
-}.normal-para {
+.normal-para {
     color: green;
+    transition: color 0.3s; 
 }
 
 #fav-para {
     color: purple;
+    transition: color 0.3s; 
 }
+
+
+.first-div:hover {
+    background-color: #add8e6;
+}
+
+.normal-para:hover {
+    color: darkgreen; 
+}
+
+#fav-para:hover {
+    color: darkmagenta; 
+}
+
